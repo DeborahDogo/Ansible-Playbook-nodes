@@ -1,0 +1,5 @@
+#ansible sensitive files
+*.pem
+*.key
+db/
+ansible.log

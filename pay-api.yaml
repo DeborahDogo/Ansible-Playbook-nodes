@@ -1,0 +1,12 @@
+---
+- name: Configure pay-api web nodes
+  hosts: webservers
+  become: yes
+  roles:
+    - pay-api
+
+- name: Configure database server
+  hosts: dbservers
+  become: yes
+  roles:
+    - db-server

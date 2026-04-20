@@ -1,0 +1,9 @@
+#SPDX-License-Identifier: MIT-0
+---
+# defaults file for pay-api
+project_name: pay-api
+environment_name: staging
+team_email: devops@payapi.example.com
+app_version: "1.1.1"
+db_name: payapi_staging
+db_port: 3306
